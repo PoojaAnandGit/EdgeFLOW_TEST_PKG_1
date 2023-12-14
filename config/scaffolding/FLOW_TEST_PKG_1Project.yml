@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/EdgeFLOW_TEST_PKG_1
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.flow_test_pkg_1.integrations:edge1
+  packages:
+  - name: FLOW_TEST_PKG_1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.674
