@@ -45,14 +45,9 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">testuser</value>
-    <value name="createdDate">1702447340522</value>
-    <value name="lastModifiedDate">1702447340522</value>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
+    <value name="lastModifiedBy">flowadmin</value>
+    <value name="lastModifiedDate">1702562973762</value>
+    <null name="edgeServer"/>
     <value name="displayName">edge1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -69,6 +64,7 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
